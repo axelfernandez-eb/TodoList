@@ -1,0 +1,6 @@
+<h1>{{ object.title }}</h1>
+<p>{{ object.description }}</p>
+<p>Priority: {{ object.priority.name }}</p>
+<p>Reporter: {{ object.created_by }}</p>
+<p>Published: {{ object.create|date }}</p>
+ <a href="{% url 'todo_list' %}">Back</a>
