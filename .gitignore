@@ -1,2 +1,8 @@
 env/
 .idea
+.coverage
+todolist/__pycache__/
+__pycache__/
+todolist_app/__pycache__/
+todolist_app/migrations/__pycache__/
+db.sqlite3
